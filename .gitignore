@@ -1,0 +1,16 @@
+# 憑證
+.env
+.dev.vars
+
+# Cloudflare / Node
+.wrangler/
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store

@@ -1,0 +1,6 @@
+# Cloudflare Worker 部署設定
+# 部署：cd worker && npx wrangler deploy
+# secrets：npx wrangler secret put LINE_CHANNEL_SECRET（其餘三個同理）
+name = "line-collection"
+main = "worker.js"
+compatibility_date = "2026-07-01"

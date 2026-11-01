@@ -1,0 +1,9 @@
+{
+  "name": "line-notion-collection",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "deploy": "cd worker && npx wrangler deploy"
+  }
+}
